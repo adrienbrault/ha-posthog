@@ -1,0 +1,9 @@
+{
+  "codeowners": ["@adrienbrault"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/adrienbrault/ha-posthog",
+  "domain": "posthog",
+  "name": "Posthog",
+  "requirements": ["posthog==1.2.1"]
+}

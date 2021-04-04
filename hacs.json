@@ -1,0 +1,5 @@
+{
+  "name": "Posthog",
+  "render_readme": true,
+  "iot_class": "Cloud Push"
+}
