@@ -5,8 +5,6 @@ from homeassistant.helpers import state as state_helper
 
 from homeassistant.const import (
     EVENT_STATE_CHANGED,
-    STATE_UNAVAILABLE,
-    STATE_UNKNOWN,
 )
 
 import posthog
