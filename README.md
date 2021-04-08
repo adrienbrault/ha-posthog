@@ -13,7 +13,7 @@ to the `Home Assistant Cloud` user/person.
 Add `https://github.com/adrienbrault/ha-posthog` as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories/).
 
 You'll need to update your `configuration.yaml`:
-```
+```yaml
 posthog:
   api_key: !secret posthog_api_key
   host: 'https://app.posthog.com' # You can remove this line if you're using app.posthog.com
