@@ -2,7 +2,10 @@
 
 ## Installation
 
-Add the following to your `configuration.yaml`:
+[HACS](https://hacs.xyz) is the recommended way to install this integration.
+Add `https://github.com/adrienbrault/ha-posthog` as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories/).
+
+You'll need to update your `configuration.yaml`:
 ```
 posthog:
   api_key: !secret posthog_api_key
