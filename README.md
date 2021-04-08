@@ -1,5 +1,12 @@
 # Posthog for Home Assistant
 
+This integration will forward home assistant state change events to [PostHog](https://posthog.com).
+
+When applicable, the integration will set the `name` user property.
+For example, when turning off a light using alexa/google-assistant
+through [home assistant cloud](https://www.nabucasa.com), the event will be linked
+to the `Home Assistant Cloud` user/person.
+
 ## Installation
 
 [HACS](https://hacs.xyz) is the recommended way to install this integration.
