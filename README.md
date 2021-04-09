@@ -7,6 +7,8 @@ For example, when turning off a light using alexa/google-assistant
 through [home assistant cloud](https://www.nabucasa.com), the event will be linked
 to the `Home Assistant Cloud` user/person.
 
+![Example event](event.png)
+
 ## Installation
 
 [HACS](https://hacs.xyz) is the recommended way to install this integration.
